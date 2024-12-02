@@ -1,0 +1,26 @@
+
+LlamaIndex 3 (formerly GPT Index) is a data framework designed to enhance how large language models (LLMs) like Llama, GPT, and others interact with external data sources. It enables users to efficiently index, retrieve, and query information from large datasets, making LLMs capable of generating contextually relevant responses based on data stored in various formats.
+
+Key Features of LlamaIndex 3
+Multiple Indexing Options:
+
+Build structured indices for text documents, databases, APIs, and more.
+Supported index types include tree-based indices, vector indices, and keyword indices.
+Efficient Retrieval:
+
+Combines techniques like vector similarity search and keyword matching to fetch relevant data.
+Integrates with vector databases like Pinecone, Weaviate, or FAISS for scalable retrieval.
+Seamless LLM Integration:
+
+Designed to work with popular LLMs like OpenAI's GPT models, Meta's Llama, or any model supported by Hugging Face.
+Provides query pipelines that generate prompts dynamically based on user queries.
+Customizability:
+
+Highly flexible for different use cases, such as knowledge bases, chatbots, search systems, and summarization tools.
+Developers can configure how data is indexed, retrieved, and queried.
+Data Augmentation:
+
+Supports retrieval-augmented generation (RAG) to provide up-to-date, contextually relevant information to LLMs during generation.
+Streaming and Real-Time Updates:
+
+Allows for dynamic updates to indices, ensuring they stay current with newly added or modified data.
